@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html class="homepage" lang="en">
+  <head>
+    <link rel="stylesheet" href="/application.css">
+      <title>My Sinatra Application</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class='col-md-12 navbar navbar-inverse navbar-static-top'>
+      <a href='/' class='navbar-brand'>Robot World</a>
+      <ul class='nav navbar-nav navbar-right'>
+        <li><a href="/robots">Robots</a></li>
+        <li><a href="/robots/new">New Robot</a></li>
+      </ul>
+    </div>
+      <%= yield %>
+    </div>
+  </body>
+</html>
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src='js/bootstrap.js'></script>

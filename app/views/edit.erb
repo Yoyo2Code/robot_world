@@ -1,0 +1,29 @@
+<div class="standard-form">
+  <div class="form-title">
+    <h1 id="title"><%=@robot.name%></h1>
+      <form action="/robots/<%= @robot.id %>">
+        <input type="hidden" name="_method" value="PUT">
+          <div class="form-border">
+            <label for="name">Name:</label> <input class="text-boxes" type="text" name="robot[name]" value="<%= @robot.name %>"><br />
+          </div>
+          <div class="form-border">
+            <label for="city">City:</label> <input class="text-boxes" type="text" name="robot[city]" value="<%= @robot.city %>"></br />
+          </div>
+          <div class="form-border">
+            <label for="state">State:</label> <input class="text-boxes" type="text" name="robot[state]" value="<%= @robot.state %>"><br />
+          </div>
+          <div class="form-border">
+            <label for="birthdate">Birthdate:</label> <input class="text-boxes" type="text" name="robot[birthdate]" value="<%= @robot.birthdate %>"><br />
+          </div>
+          <div class="form-border">
+            <label for="date_hired">Date Hired:</label> <input class="text-boxes" type="text" name="robot[date_hired]" value="<%= @robot.date_hired %>"><br />
+          </div>
+          <div class="form-border">
+            <label for="department">Department:</label> <input class="text-boxes" type="text" name="robot[department]" value="<%= @robot.department %>"><br />
+          </div>
+          <div class="form-border">
+            <input class="btn btn-default" type="submit" value="Update Robot"/>
+          </div>
+    </form>
+  </div>
+</div>

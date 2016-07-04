@@ -1,0 +1,107 @@
+.homepage {
+  background: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-135663.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.dashboard{
+  position: fixed;
+  top: 200px;
+  height: 250px;
+  background-color: white;
+  width: 100%;
+  left: 0;
+  opacity: 0.5;
+}
+
+#greeting{
+  position: fixed;
+  top: 250px;
+  left: 0;
+  width: 100%;
+}
+
+.standard-form{
+  position: fixed;
+  top: 100px;
+  left: 40%;
+  background-color: white;
+  opacity: 0.95;
+  height: 500px;
+  width: 100%;
+  left: 0;
+  display: inline-block;
+  text-align: center;
+}
+
+.form-border{
+  padding: 15px;
+}
+
+.image-border {
+  padding: 10px;
+  align: center;
+}
+
+#form-title {
+  padding: 8px;
+  align: center;
+}
+
+.form-textbox{
+  height: 10px;
+  width: 30px;
+  font-size: 14px;
+}
+
+.text-boxes{
+  width: 500px;
+}
+
+.robot-list{
+  background-color: black;
+  font-family: monospace;
+  color: white;
+}
+
+.image{
+  background-color: white;
+  align: center;
+}
+
+#creation{
+  padding: 10px;
+}
+
+#update{
+  padding: 15px;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+label{
+display:inline-block;
+width:200px;
+margin-right:30px;
+text-align:right;
+}
+
+fieldset{
+border:none;
+width:500px;
+margin:0px auto;
+}
+
+#title{
+  font-family: fantasy;
+}
+
+.button-spacing{
+  padding: 5px;
+}
+
+input{
+
+}

@@ -1,0 +1,22 @@
+<div class="standard-form">
+  <div class="form-title">
+    <p id="update"><strong>New data installed into robot</strong></p>
+      <h5> <b>Name:</b> <%= @robot.name %></h5>
+        <div class="form-border">
+          <h5> <b>City:</b> <%= @robot.city %></h5>
+        </div>
+        <div class="form-border">
+          <h5> <b>State:</b> <%= @robot.state %></h5>
+        </div>
+        <div class="form-border">
+          <h5><b> Birthdate:</b> <%= @robot.birthdate %></h5>
+        </div>
+        <div class="form-border" type>
+          <h5><b>Date Hired:</b> <%= @robot.date_hired %></h5>
+        </div>
+        <div class="form-border">
+          <h5><b>Department:</b> <%= @robot.department %></h5>
+        </div>
+          <a class='btn btn-info' href="/robots">Return Home</a>
+  </div>
+</div>

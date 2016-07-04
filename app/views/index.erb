@@ -1,0 +1,21 @@
+<div class="col-md-12">
+  <% @robots.each do |robot| %>
+    <div class="col-md-12">
+      <div class="robot-list" align="center">
+          <h3><%= robot.name %></h3>
+        <div class="image">
+          <img class="img-rounded" src="https://robohash.org/<%= robot.id %>" height="153" width="153">
+        </div>
+        <div class="container" id="form-title">
+          <div class="col-md-12">
+            <form action="/robots/<%= robot.id %>" method="post">
+                <a class='btn btn-default btn-xs' href="/robots/<%= robot.id %>/edit" role="button">Edit</a>
+                  <input type="hidden" name="_method" value="DELETE">
+                  <input class="btn btn-default btn-xs" href="" type="submit" value="Delete Robot">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
