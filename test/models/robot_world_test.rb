@@ -7,12 +7,12 @@ class RobotWorldTest < Minitest::Test
     robot_world.all.first.id
   end
 
-  {"name" => "Bender",
-  "city" => "Kansas",
-  "state" => "Colorado",
-  "birthdate" => "01/01/1990",
-  "date_hired" => "01/02/1990",
-  "department" => "Hero"}
+    {"name" => "Bender",
+    "city" => "Kansas",
+    "state" => "Colorado",
+    "birthdate" => "01/01/1990",
+    "date_hired" => "01/02/1990",
+    "department" => "Hero"}
 
   def test_it_creates_a_robot
     robot_world.create(robot_one)
